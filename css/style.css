@@ -1,6 +1,15 @@
 *{
     margin: 0px;
 }
+body{
+    width: 100%;
+}
+.width-100{
+    width: 100%;
+}
+.boundary{
+    padding: 25px;
+}
 .display-flex{
     display: flex ;
     flex-flow: row wrap;
@@ -35,10 +44,10 @@
     background-position: center;
 
 }
-.poster> h2{
+.poster> h2, .about>h2{
     font-size: 24px;
 }
-.poster> h1{
+.poster> h1, .about>h1{
     font-size: 48px;
 }
 .poster-btn{
@@ -48,8 +57,27 @@
     border-radius: 5px;
     background-color: #198754;
     margin: 10px 10px 0px 0px;
-    
     color:#fff ;
 
 }
-
+.services{
+    margin: 0px 0px;
+}
+.services img{
+    height: 100px;
+    width: 150px;
+}
+.services > .row{
+margin-top: 50px;
+}
+.services .box{
+    width: 30%;
+    flex-grow: 1;
+    border: 2px solid #f2f2f2;
+    border-radius: 15px;
+    padding: 30px 5px;
+    font-size: 15px;
+    margin: 10px;
+    box-shadow:0px 0px 10px 0px #fff;
+    
+}
