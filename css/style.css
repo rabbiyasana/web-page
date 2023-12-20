@@ -8,6 +8,11 @@
 .flex-item{
     box-sizing: border-box;
  }
+.text-center{
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; 
+    text-align: center;
+ }
  margin-auto{
     margin: auto;
  }
@@ -22,19 +27,28 @@
     color: #000;
 }
 .poster{
+    padding: 100px;
+    margin: auto;
     color:#fff ;
-
- background-image: url("../images/backimg.jpg");
- background-size: cover;
- background-position: center;
+    background-image: url("../images/backimg.jpg");
+    background-size: cover;
+    background-position: center;
 
 }
+.poster> h2{
+    font-size: 24px;
+}
+.poster> h1{
+    font-size: 48px;
+}
 .poster-btn{
+    width: 100px;
     padding: 10px;
     border: none;
     border-radius: 5px;
     background-color: #198754;
-    margin-left: 10px;
+    margin: 10px 10px 0px 0px;
+    
     color:#fff ;
 
 }
