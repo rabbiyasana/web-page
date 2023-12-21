@@ -129,7 +129,7 @@ form {
   button:hover {
     background-color: #45a049;
   }
-  footer ul > li{
+  footer li{
     text-decoration: none;
     list-style-type: none;
     margin-top:5px ;
