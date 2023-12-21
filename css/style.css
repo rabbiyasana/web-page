@@ -18,7 +18,7 @@ body{
     box-sizing: border-box;
  }
 .text-center{
-    justify-content: center; /* Centers content horizontally */
+    justify-content: center;
     align-items: center; 
     text-align: center;
  }
